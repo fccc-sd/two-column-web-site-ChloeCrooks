@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color:rgb(224, 224, 224);
+    background-attachment: fixed;
+    font-size: 1em;
+    font: 1em 'Gill Sans', 'Gill Sans MT', 'Trebuchet', sans-serif;
+}
+#container
+{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(224, 224, 224);
+    font: 1.4em/1em 'Gill Sans', 'Gill Sans MT', 'Trebuchet', sans-serif;
+}
+
+header
+{
+    height: 100px;
+    width: 910px;
+    padding: 25px;
+    background-color: rgb(224, 224, 224);
+    margin-bottom: 10px;
+    
+    text-align: center;
+    font: bold 1.4em/1em 'Gill Sans', 'Gill Sans MT', 'Trebuchet', sans-serif;
+    border-style: dotted;
+    border-width: thick;
+    border-color: rgb(112, 112, 112);
+    padding: 15px;
+    margin: 10px 15px;
+
+}
+
+nav
+{
+    width: 940px;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav li
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 40px;
+    
+}
+
+nav a:link
+{
+    text-decoration:none;
+    color: bisque;
+}
+
+
+nav a:visited
+{
+    color:rgb(112, 112, 112);
+}
+
+nav a:hover
+{
+    text-decoration:underline;
+    color:rgb(211, 209, 209);
+}
+aside
+{
+    width: 200px;
+    height: 200px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    float: left;
+    background-color: rgb(224, 224, 224);
+    
+}
+
+section
+{
+    width: 680px;
+    height: 589px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    float: right;
+    background-color: rgb(241, 241, 241);
+}
+
+footer
+{
+    clear: both;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+img
+{
+ 
+    float: left;
+}
+
+p
+{
+    clear: left;
+    margin: 15px;
+}
